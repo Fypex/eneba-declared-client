@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Provider;
+namespace Fypex\EnebaClient\Provider;
 
-use Helis\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum;
-use Helis\EnebaClient\Factory\SelectionSet\SelectionSetFactoryInterface;
+use Fypex\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum;
+use Fypex\EnebaClient\Factory\SelectionSet\SelectionSetFactoryInterface;
 
 interface SelectionSetFactoryProviderInterface
 {

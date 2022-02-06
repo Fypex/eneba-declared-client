@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Provider;
+namespace Fypex\EnebaClient\Provider;
 
 interface SelectionSetFactoryProviderAwareInterface
 {

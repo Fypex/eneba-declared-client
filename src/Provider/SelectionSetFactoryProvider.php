@@ -1,26 +1,26 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Provider;
+namespace Fypex\EnebaClient\Provider;
 
-use Helis\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum as ProviderNameEnum;
-use Helis\EnebaClient\Factory\SelectionSet\ActionResponseSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\ActionSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\AuctionSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\CallbackSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\CallbacksSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\ConnectionSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\CountFeeSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\FragmentDeclaredStockSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\KeySelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\MoneySelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\PriceUpdateQuotaSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\ProductSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\SalesSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\SelectionSetFactoryInterface;
-use Helis\EnebaClient\Factory\SelectionSet\StockSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\TransactionsFragmentSelectionSetFactory;
-use Helis\EnebaClient\Factory\SelectionSet\TransactionsSelectionSetFactory;
+use Fypex\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum as ProviderNameEnum;
+use Fypex\EnebaClient\Factory\SelectionSet\ActionResponseSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\ActionSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\AuctionSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\CallbackSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\CallbacksSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\ConnectionSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\CountFeeSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\FragmentDeclaredStockSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\KeySelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\MoneySelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\PriceUpdateQuotaSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\ProductSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\SalesSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\SelectionSetFactoryInterface;
+use Fypex\EnebaClient\Factory\SelectionSet\StockSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\TransactionsFragmentSelectionSetFactory;
+use Fypex\EnebaClient\Factory\SelectionSet\TransactionsSelectionSetFactory;
 use RuntimeException;
 
 class SelectionSetFactoryProvider implements SelectionSetFactoryProviderInterface

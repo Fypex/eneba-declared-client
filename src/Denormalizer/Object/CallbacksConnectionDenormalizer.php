@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Denormalizer\Object;
+namespace Fypex\EnebaClient\Denormalizer\Object;
 
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareInterface;
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareTrait;
-use Helis\EnebaClient\Denormalizer\DenormalizerInterface;
-use Helis\EnebaClient\Model\Relay\Connection\CallbacksConnection;
-use Helis\EnebaClient\Model\Relay\Connection\PageInfo;
-use Helis\EnebaClient\Model\Relay\Connection\SalesCallback;
-use Helis\EnebaClient\Model\Relay\Edge\CallbackEdge;
-use Helis\EnebaClient\Model\Relay\Edge\SalesEdge;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareInterface;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareTrait;
+use Fypex\EnebaClient\Denormalizer\DenormalizerInterface;
+use Fypex\EnebaClient\Model\Relay\Connection\CallbacksConnection;
+use Fypex\EnebaClient\Model\Relay\Connection\PageInfo;
+use Fypex\EnebaClient\Model\Relay\Connection\SalesCallback;
+use Fypex\EnebaClient\Model\Relay\Edge\CallbackEdge;
+use Fypex\EnebaClient\Model\Relay\Edge\SalesEdge;
 
 class CallbacksConnectionDenormalizer implements DenormalizerInterface, DenormalizerAwareInterface
 {

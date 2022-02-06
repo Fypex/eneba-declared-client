@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Helis\EnebaClient;
+namespace Fypex\EnebaClient;
 
 use DateTime;
 use Fypex\GraphqlQueryBuilder\Argument\VariableValue;
@@ -11,11 +11,11 @@ use Fypex\GraphqlQueryBuilder\SelectionSet\Fragment;
 use Fypex\GraphqlQueryBuilder\SelectionSet\SelectionSet;
 use Fypex\GraphqlQueryBuilder\Variable\ScalarVariable;
 use Fypex\GraphqlQueryBuilder\Variable\StringVariable;
-use Helis\EnebaClient\Credentials\ClientCredentialsInterface;
-use Helis\EnebaClient\Exception\GeneralException;
-use Helis\EnebaClient\Exception\GraphQLException;
-use Helis\EnebaClient\Exception\HttpException;
-use Helis\EnebaClient\Model\AccessToken;
+use Fypex\EnebaClient\Credentials\ClientCredentialsInterface;
+use Fypex\EnebaClient\Exception\GeneralException;
+use Fypex\EnebaClient\Exception\GraphQLException;
+use Fypex\EnebaClient\Exception\HttpException;
+use Fypex\EnebaClient\Model\AccessToken;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

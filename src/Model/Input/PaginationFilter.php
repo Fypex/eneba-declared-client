@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Model\Input;
+namespace Fypex\EnebaClient\Model\Input;
 
 class PaginationFilter
 {

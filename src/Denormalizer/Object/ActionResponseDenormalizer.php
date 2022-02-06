@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Denormalizer\Object;
+namespace Fypex\EnebaClient\Denormalizer\Object;
 
-use Helis\EnebaClient\Denormalizer\DenormalizerInterface;
-use Helis\EnebaClient\Model\ActionResponse;
+use Fypex\EnebaClient\Denormalizer\DenormalizerInterface;
+use Fypex\EnebaClient\Model\ActionResponse;
 use Ramsey\Uuid\Uuid;
 
 class ActionResponseDenormalizer implements DenormalizerInterface

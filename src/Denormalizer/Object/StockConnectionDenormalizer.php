@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Denormalizer\Object;
+namespace Fypex\EnebaClient\Denormalizer\Object;
 
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareInterface;
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareTrait;
-use Helis\EnebaClient\Denormalizer\DenormalizerInterface;
-use Helis\EnebaClient\Model\Relay\Connection\PageInfo;
-use Helis\EnebaClient\Model\Relay\Connection\StockConnection;
-use Helis\EnebaClient\Model\Relay\Edge\StockEdge;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareInterface;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareTrait;
+use Fypex\EnebaClient\Denormalizer\DenormalizerInterface;
+use Fypex\EnebaClient\Model\Relay\Connection\PageInfo;
+use Fypex\EnebaClient\Model\Relay\Connection\StockConnection;
+use Fypex\EnebaClient\Model\Relay\Edge\StockEdge;
 
 class StockConnectionDenormalizer implements DenormalizerInterface, DenormalizerAwareInterface
 {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Enum;
+namespace Fypex\EnebaClient\Enum;
 
 use MyCLabs\Enum\Enum;
 

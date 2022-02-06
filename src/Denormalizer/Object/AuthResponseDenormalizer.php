@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Denormalizer\Object;
+namespace Fypex\EnebaClient\Denormalizer\Object;
 
-use Helis\EnebaClient\Denormalizer\DenormalizerInterface;
-use Helis\EnebaClient\Model\AccessToken;
+use Fypex\EnebaClient\Denormalizer\DenormalizerInterface;
+use Fypex\EnebaClient\Model\AccessToken;
 
 class AuthResponseDenormalizer implements DenormalizerInterface
 {

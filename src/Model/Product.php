@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Model;
+namespace Fypex\EnebaClient\Model;
 
 use DateTimeInterface;
-use Helis\EnebaClient\Model\Relay\Connection\AuctionConnection;
+use Fypex\EnebaClient\Model\Relay\Connection\AuctionConnection;
 use Ramsey\Uuid\UuidInterface;
 
 class Product

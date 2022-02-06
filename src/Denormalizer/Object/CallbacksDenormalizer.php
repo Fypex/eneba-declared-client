@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Denormalizer\Object;
+namespace Fypex\EnebaClient\Denormalizer\Object;
 
 use DateTime;
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareInterface;
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareTrait;
-use Helis\EnebaClient\Denormalizer\DenormalizerInterface;
-use Helis\EnebaClient\Model\Callbacks;
-use Helis\EnebaClient\Model\Sales;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareInterface;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareTrait;
+use Fypex\EnebaClient\Denormalizer\DenormalizerInterface;
+use Fypex\EnebaClient\Model\Callbacks;
+use Fypex\EnebaClient\Model\Sales;
 use Money\Money;
 use Ramsey\Uuid\Uuid;
 

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Credentials;
+namespace Fypex\EnebaClient\Credentials;
 
 class ClientCredentials implements ClientCredentialsInterface
 {

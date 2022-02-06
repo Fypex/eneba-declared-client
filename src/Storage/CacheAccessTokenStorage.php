@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Storage;
+namespace Fypex\EnebaClient\Storage;
 
 use DateTime;
 use Psr\Cache\CacheItemPoolInterface;

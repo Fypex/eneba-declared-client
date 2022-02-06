@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Factory\SelectionSet;
+namespace Fypex\EnebaClient\Factory\SelectionSet;
 
 use Fypex\GraphqlQueryBuilder\SelectionSet\Field;
 use Fypex\GraphqlQueryBuilder\SelectionSet\SelectionSet;

@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Denormalizer\Object;
+namespace Fypex\EnebaClient\Denormalizer\Object;
 
 use DateTime;
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareInterface;
-use Helis\EnebaClient\Denormalizer\DenormalizerAwareTrait;
-use Helis\EnebaClient\Denormalizer\DenormalizerInterface;
-use Helis\EnebaClient\Model\PriceUpdateQuota;
-use Helis\EnebaClient\Model\Product;
-use Helis\EnebaClient\Model\Stock;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareInterface;
+use Fypex\EnebaClient\Denormalizer\DenormalizerAwareTrait;
+use Fypex\EnebaClient\Denormalizer\DenormalizerInterface;
+use Fypex\EnebaClient\Model\PriceUpdateQuota;
+use Fypex\EnebaClient\Model\Product;
+use Fypex\EnebaClient\Model\Stock;
 use Money\Money;
 use Ramsey\Uuid\Uuid;
 

@@ -1,23 +1,23 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient;
+namespace Fypex\EnebaClient;
 
 use DateTime;
-use Helis\EnebaClient\Credentials\ClientCredentialsInterface;
-use Helis\EnebaClient\Denormalizer\Denormalizer;
-use Helis\EnebaClient\Denormalizer\DenormalizerInterface;
-use Helis\EnebaClient\Enum\CallbackTypeEnum;
-use Helis\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum as ProviderNameEnum;
-use Helis\EnebaClient\Model\ActionResponse;
-use Helis\EnebaClient\Model\Callbacks;
-use Helis\EnebaClient\Model\CallbackResponse;
-use Helis\EnebaClient\Model\Input\StockFilter;
-use Helis\EnebaClient\Model\Relay\Connection\StockConnection;
-use Helis\EnebaClient\Provider\SelectionSetFactoryProvider;
-use Helis\EnebaClient\Provider\SelectionSetFactoryProviderInterface;
-use Helis\EnebaClient\Storage\AccessTokenStorageInterface;
-use Helis\EnebaClient\Storage\ArrayAccessTokenStorage;
+use Fypex\EnebaClient\Credentials\ClientCredentialsInterface;
+use Fypex\EnebaClient\Denormalizer\Denormalizer;
+use Fypex\EnebaClient\Denormalizer\DenormalizerInterface;
+use Fypex\EnebaClient\Enum\CallbackTypeEnum;
+use Fypex\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum as ProviderNameEnum;
+use Fypex\EnebaClient\Model\ActionResponse;
+use Fypex\EnebaClient\Model\Callbacks;
+use Fypex\EnebaClient\Model\CallbackResponse;
+use Fypex\EnebaClient\Model\Input\StockFilter;
+use Fypex\EnebaClient\Model\Relay\Connection\StockConnection;
+use Fypex\EnebaClient\Provider\SelectionSetFactoryProvider;
+use Fypex\EnebaClient\Provider\SelectionSetFactoryProviderInterface;
+use Fypex\EnebaClient\Storage\AccessTokenStorageInterface;
+use Fypex\EnebaClient\Storage\ArrayAccessTokenStorage;
 use Fypex\GraphqlQueryBuilder\Argument\VariableValue;
 use Fypex\GraphqlQueryBuilder\Mutation;
 use Fypex\GraphqlQueryBuilder\SelectionSet\Field;

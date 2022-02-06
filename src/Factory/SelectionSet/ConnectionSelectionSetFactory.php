@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Factory\SelectionSet;
+namespace Fypex\EnebaClient\Factory\SelectionSet;
 
-use Helis\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum;
-use Helis\EnebaClient\Provider\SelectionSetFactoryProviderAwareInterface;
-use Helis\EnebaClient\Provider\SelectionSetFactoryProviderAwareTrait;
+use Fypex\EnebaClient\Enum\SelectionSetFactoryProviderNameEnum;
+use Fypex\EnebaClient\Provider\SelectionSetFactoryProviderAwareInterface;
+use Fypex\EnebaClient\Provider\SelectionSetFactoryProviderAwareTrait;
 use Fypex\GraphqlQueryBuilder\SelectionSet\Field;
 use Fypex\GraphqlQueryBuilder\SelectionSet\SelectionSet;
 

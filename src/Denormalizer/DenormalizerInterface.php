@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient\Denormalizer;
+namespace Fypex\EnebaClient\Denormalizer;
 
 interface DenormalizerInterface
 {

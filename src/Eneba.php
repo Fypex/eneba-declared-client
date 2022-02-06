@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\EnebaClient;
+namespace Fypex\EnebaClient;
 
 final class Eneba
 {
