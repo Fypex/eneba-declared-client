@@ -1,0 +1,6 @@
+/.idea/
+/vendor/
+/tests/var/
+/phpunit.xml
+/composer.lock
+/controllers/*
