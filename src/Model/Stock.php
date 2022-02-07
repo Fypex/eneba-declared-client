@@ -13,6 +13,7 @@ class Stock
     private $product;
     private $unitsSold;
     private $onHand;
+    private $declaredStock;
     private $status;
     private $expiresAt;
     private $autoRenew;
@@ -29,6 +30,7 @@ class Stock
         Product $product,
         int $unitsSold,
         int $onHand,
+        int $declaredStock,
         string $status,
         DateTimeInterface $expiresAt,
         bool $autoRenew,
@@ -39,6 +41,7 @@ class Stock
         $this->product = $product;
         $this->unitsSold = $unitsSold;
         $this->onHand = $onHand;
+        $this->declaredStock = $declaredStock;
         $this->status = $status;
         $this->expiresAt = $expiresAt;
         $this->autoRenew = $autoRenew;
@@ -94,6 +97,11 @@ class Stock
     public function getPriceUpdateQuota(): ?PriceUpdateQuota
     {
         return $this->priceUpdateQuota;
+    }
+
+    public function getDeclaredStock(): int
+    {
+        return $this->declaredStock;
     }
 
     public function setPriceUpdateQuota(?PriceUpdateQuota $priceUpdateQuota): void

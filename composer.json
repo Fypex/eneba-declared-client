@@ -35,5 +35,8 @@
     "config": {
         "sort-packages": true,
         "secure-http": false
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
     }
 }

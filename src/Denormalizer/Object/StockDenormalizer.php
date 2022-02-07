@@ -19,11 +19,13 @@ class StockDenormalizer implements DenormalizerInterface, DenormalizerAwareInter
 
     public function denormalize($data, string $class): Stock
     {
+
         $stock = new Stock(
             Uuid::fromString($data['id']),
             $this->denormalizer->denormalize($data['product'], Product::class),
             $data['unitsSold'],
             $data['onHand'],
+            $data['declaredStock'],
             $data['status'],
             new DateTime($data['expiresAt']),
             $data['autoRenew'],
